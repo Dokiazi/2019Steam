@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name           2019 Steam
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    2019 Steam
+@author         CachorroBonitin3571
+==/UserStyle== */
+
+@-moz-document domain("store.steampowered.com") {
+    div#global_header {
+        background: #171a21;
+}
+    div#global_header .content {
+        background: #171a21;
+}
+    div#global_header .menuitem {
+        display: block;
+        position: relative;
+        padding-top: 45px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        line-height: 16px;
+        float: left;
+        font-size: 14px;
+        font-weight: normal;
+        color: #b8b6b4;
+        text-transform: uppercase;
+}
+    div#global_header .menuitem.supernav_active {
+        display: block;
+        position: relative;
+        padding-top: 45px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 7px;
+        line-height: 16px;
+        float: left;
+        font-size: 14px;
+        font-weight: normal;
+        color: #b8b6b4;
+        text-transform: uppercase;
+}
+    div#global_header .content {
+        width: 940px;
+        height: 104px;
+        margin: 0px auto;
+        z-index: 402;
+}
+    div#global_header .menuitem.supernav_active {
+  &::after {
+      display: none;
+}
+}
+    .home_ctn.content_more {
+      display: none;  
+}
+}
+@-moz-document domain("store.steampowered.com/about/") {
+    .h2B3SGR_w4RWdrnsRZEcD {
+        display: none!important;
+}
+}
+@-moz-document url-prefix("steamcommunity.com/id/") {
+    
+}
